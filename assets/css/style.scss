@@ -573,10 +573,67 @@ body[theme="dark"]{
         > article:nth-child(6){
             align-items: center;
             box-sizing: border-box;
-            border: 1px solid red;
             > div{
+                gap: 25px;
                 width: 100%;
-                border: 1px solid white;
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                > div{
+                    flex: 1 0 100%;
+                    padding: 0px 15px;
+                    box-sizing: border-box;
+                }
+                > div:nth-child(1){
+                    > h3{
+                        font-size: 2.3em;
+                        margin-bottom: 15px;
+                    }
+                    > ul{
+                        gap: 15px;
+                        width: 100%;
+                        box-sizing: border-box;
+                        list-style-type: none;
+                        padding: 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        > li{
+                            flex: 1 0 100%;
+                            display: block;
+                            > a{
+                                gap: 10px;
+                                display: flex;
+                                color: white;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                > div:nth-child(2){
+                    padding: 15px;
+                    background-color: #ffffff;
+                    > form{
+                        gap: 10px;
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        > input, > textarea, > button{
+                            border: 1px solid lightgrey;
+                        }
+                        > input{
+                            flex: 1 0 100%;
+                            padding: 12px;
+                            outline: none;
+                            box-sizing: border-box;
+                        }
+                        > textarea{
+                            resize: none;
+                            height: 100px;
+                            flex: 1 0 100%;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
             }
         }
 
