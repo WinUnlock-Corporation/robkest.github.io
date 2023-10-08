@@ -86,7 +86,7 @@ body[theme=dark] > header > nav > div:nth-child(1) > div {
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 15px;
-  background-image: url(/assets/img/code-solid.svg);
+  background-image: url("../img/code-solid.svg");
 }
 @media (max-width: 600px) {
   body[theme=dark] > header > nav > div:nth-child(1) {
@@ -196,7 +196,7 @@ body[theme=dark] > section > article:nth-child(1) > div > div > div > div {
   -webkit-border-radius: 50%;
   border: 1px solid var(--500);
   background-repeat: no-repeat;
-  background-image: url(/assets/img/profile/profile-icon.jpg);
+  background-image: url(../img/profile/profile-icon.jpg);
   box-shadow: 0px 3px 25px -7px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 0px 3px 25px -7px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 0px 3px 25px -7px rgba(255, 255, 255, 0.75);
@@ -318,7 +318,7 @@ body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(1) > div
   background-position: center;
   -webkit-border-radius: 10px;
   background-repeat: no-repeat;
-  background-image: url(/assets/img/LogoMajo2010.jpg);
+  background-image: url(../img/LogoMajo2010.jpg);
 }
 body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > div > div > div:nth-child(2) {
   flex: 1;
@@ -369,7 +369,7 @@ body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(1) > div
   background-position: center;
   -webkit-border-radius: 10px;
   background-repeat: no-repeat;
-  background-image: url(/assets/img/Associazione_Italiana_Dislessia.jpg);
+  background-image: url(../img/Associazione_Italiana_Dislessia.jpg);
 }
 body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(2) {
   flex: 1;
@@ -500,10 +500,10 @@ body[theme=dark] > section > article:nth-child(4) > div > div > div > div:nth-ch
   }
 }
 body[theme=dark] > section > article:nth-child(4) > div > div > div:nth-child(1) > div:nth-child(1) {
-  background-image: url(/assets/img/OIP.jpg);
+  background-image: url(../img/OIP.jpg);
 }
 body[theme=dark] > section > article:nth-child(4) > div > div > div:nth-child(2) > div:nth-child(1) {
-  background-image: url(/assets/img/betacom_accademy.PNG);
+  background-image: url(../img/betacom_accademy.PNG);
 }
 body[theme=dark] > section > article:nth-child(5) {
   align-items: center;
