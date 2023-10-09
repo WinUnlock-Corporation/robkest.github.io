@@ -396,6 +396,9 @@ body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div
   -webkit-border-radius: 10px;
   border: 1px solid var(--500);
 }
+body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div {
+  margin-bottom: 10px;
+}
 body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div > h3 {
   margin: 0;
   margin-bottom: 25px;
@@ -412,7 +415,7 @@ body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div
     font-size: 1em;
   }
 }
-body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div > button {
+body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div > a {
   color: white;
   font-size: 15px;
   padding: 10px 25px;
@@ -421,8 +424,9 @@ body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div
   border: 1px solid var(--500);
   background-color: var(--dark);
   font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
 }
-body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div > button:hover {
+body[theme=dark] > section > article:nth-child(3) > div > div:nth-child(2) > div > div > a:hover {
   cursor: pointer;
   color: var(--dark);
   transition: 250ms all;
@@ -601,7 +605,6 @@ body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(1) > ul 
 }
 body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) {
   padding: 15px;
-  background-color: #ffffff;
 }
 body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form {
   gap: 10px;
@@ -610,19 +613,44 @@ body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > for
   flex-wrap: wrap;
 }
 body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > input, body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > textarea, body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > button {
-  border: 1px solid lightgrey;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid var(--500);
+  font-family: Roboto, Arial, sans-serif;
 }
 body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > input {
   flex: 1 0 100%;
   padding: 12px;
-  outline: none;
-  box-sizing: border-box;
 }
 body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > textarea {
   resize: none;
   height: 100px;
+  padding: 12px;
   flex: 1 0 100%;
-  box-sizing: border-box;
+}
+body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > button {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border: 1px solid var(--500);
+  background-color: var(--dark);
+  text-decoration: none;
+}
+body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > form > button:hover {
+  cursor: pointer;
+  color: var(--dark);
+  transition: 250ms all;
+  background-color: white;
+  box-shadow: 0px 11px 16px -16px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 11px 16px -16px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 11px 16px -16px rgba(255, 255, 255, 0.75);
 }
 @media (max-width: 600px) {
   body[theme=dark] > section {
