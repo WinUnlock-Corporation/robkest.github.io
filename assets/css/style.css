@@ -652,8 +652,8 @@ body[theme=dark] > section > article:nth-child(6) > div > div:nth-child(2) > for
   -webkit-box-shadow: 0px 11px 16px -16px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 0px 11px 16px -16px rgba(255, 255, 255, 0.75);
 }
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   body[theme=dark] > section {
-    margin-top: 115px;
+    margin-top: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
